@@ -1,0 +1,20 @@
+<div class="flex flex-col items-center space-y-4 p-2 text-white">
+  <h4 class="font-semibold text-xl md:text-sm text-center">
+    {{ dailyForecast.date | date : "EEE, MMM d" }}
+  </h4>
+  <img
+    src="http://openweathermap.org/img/wn/{{
+      dailyForecast.weatherIcon
+    }}@2x.png"
+    alt=""
+    class="w-full md:w-3/5"
+  />
+  <div class="flex flex-row">
+    <span class="text-xl md:text-sm"
+      >{{ dailyForecast.maxTemp | number : "1.0-0" }}&#176;/</span
+    >
+    <span class="text-gray-300 ml-1 text-xl md:text-sm"
+      >{{ dailyForecast.minTemp | number : "1.0-0" }}&#176;</span
+    >
+  </div>
+</div>
