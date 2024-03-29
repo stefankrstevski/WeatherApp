@@ -1,6 +1,6 @@
 
 # WeatherApp
-This project is an Angular(SPA) that consumes a ASP.NET Core Web API for user JWT token based authentication and authorization in order to fetch and display and weather information for the next 4 days.
+This project is an Angular(SPA) that consumes a ASP.NET Core [Web API](https://github.com/stefankrstevski/WeatherWebApi) for user JWT token based authentication and authorization in order to fetch and display and weather information for the next 4 days.
 
 ### Features
 
